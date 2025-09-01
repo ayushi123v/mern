@@ -1,0 +1,46 @@
+.container{
+    background-color: tomato;
+    border: 2px solid rgb(19, 10, 10);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+   
+}
+.eye{
+    background-color: black;
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    top: 20px;
+    left: 15px;
+
+}
+.eyebrow{
+    height: 5px;
+    width: 30px;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    top: 35px;
+    border-radius: 5px;
+}
+.mouth{
+    height: 30px;
+    background-color: red;
+    width: 60px;
+    align-items: center;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+     border: 3px solid black;
+}
+
